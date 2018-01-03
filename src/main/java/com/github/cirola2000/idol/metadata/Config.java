@@ -1,4 +1,4 @@
-package org.aksw.idol.metadata;
+package com.github.cirola2000.idol.metadata;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

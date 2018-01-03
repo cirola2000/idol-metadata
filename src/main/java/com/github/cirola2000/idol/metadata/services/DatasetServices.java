@@ -1,12 +1,11 @@
 /**
  * 
  */
-package org.aksw.idol.metadata.services;
+package com.github.cirola2000.idol.metadata.services;
 
 import java.util.Collection;
 import java.util.List;
 
-import org.aksw.idol.metadata.models.DatasetModel;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -16,6 +15,7 @@ import org.springframework.data.mongodb.core.query.Query;
 import org.springframework.data.mongodb.core.query.Update;
 import org.springframework.stereotype.Service;
 
+import com.github.cirola2000.idol.metadata.models.DatasetModel;
 import com.mongodb.BasicDBObject;
 import com.mongodb.DBObject;
 

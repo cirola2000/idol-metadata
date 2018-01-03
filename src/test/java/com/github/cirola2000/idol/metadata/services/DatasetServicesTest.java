@@ -1,11 +1,9 @@
-package org.aksw.idol.metadata.services;
+package com.github.cirola2000.idol.metadata.services;
 
 import static org.hamcrest.CoreMatchers.is;
 import static org.hamcrest.CoreMatchers.notNullValue;
 import static org.junit.Assert.assertThat;
 
-import org.aksw.idol.metadata.models.DatasetModel;
-import org.aksw.idol.metadata.services.DatasetServices;
 import org.junit.Before;
 import org.junit.FixMethodOrder;
 import org.junit.Test;
@@ -15,6 +13,9 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.data.mongodb.core.MongoTemplate;
 import org.springframework.test.context.junit4.SpringRunner;
+
+import com.github.cirola2000.idol.metadata.models.DatasetModel;
+import com.github.cirola2000.idol.metadata.services.DatasetServices;
 
 @FixMethodOrder(MethodSorters.NAME_ASCENDING)
 @SpringBootTest

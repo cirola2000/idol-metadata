@@ -1,4 +1,4 @@
-package org.aksw.idol.metadata.models;
+package com.github.cirola2000.idol.metadata.models;
 
 import org.bson.types.ObjectId;
 import org.hibernate.validator.constraints.NotEmpty;
