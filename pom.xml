@@ -1,10 +1,13 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
-	<groupId>idol</groupId>
+	<groupId>org.aksw.idol</groupId>
 	<artifactId>idol-metadata</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 
+	<name>${project.groupId}:${project.artifactId}</name>
+	<packaging>jar</packaging>
+	
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
@@ -53,5 +56,27 @@
 		</dependency>
 
 	</dependencies>
+
+	<licenses>
+		<license>
+			<name>The Apache License, Version 2.0</name>
+			<url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+		</license>
+	</licenses>
+
+	<developers>
+		<developer>
+			<name>Ciro Baron Neto</name>
+			<email>cirobaroneto@gmail.com</email>
+			<organization>AKSW</organization>
+			<organizationUrl>http://www.aksw.org</organizationUrl>
+		</developer>
+	</developers>
+
+	<scm>
+		<connection>scm:git:git://github.com/cirola2000/idol-metadata.git</connection>
+		<developerConnection>scm:git:ssh://github.com:cirola2000/idol-metadata.git</developerConnection>
+		<url>https://github.com/cirola2000/idol-metadata/tree/master</url>
+	</scm>
 
 </project>
