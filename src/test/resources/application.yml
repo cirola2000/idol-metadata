@@ -1,0 +1,14 @@
+spring:
+  jackson:
+    serialization:
+      indent-output: true
+  data:
+    mongodb:
+      host: localhost
+      port: 27017
+      database: idolmetadata-test
+      
+      
+logging:
+  level:
+    idol.metadata.services.DatasetServices: debug 

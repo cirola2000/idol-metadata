@@ -1,0 +1,15 @@
+spring:
+  jackson:
+    serialization:
+      indent-output: true
+  kafka:
+    consumer:
+      group-id: foo
+      auto-offset-reset: earliest
+  data:
+    mongodb:
+      host: localhost
+      port: 27017
+      database: idolmetadata
+
+     
