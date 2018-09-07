@@ -3,7 +3,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.github.cirola2000</groupId>
 	<artifactId>idol-metadata</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>0.0.1-SNAPSHOT</version> 
 
 	<name>${project.groupId}:${project.artifactId}</name>
 	<packaging>jar</packaging>
